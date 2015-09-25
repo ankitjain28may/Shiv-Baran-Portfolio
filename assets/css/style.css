@@ -1,0 +1,24 @@
+body{
+	background-color: #002E4C;
+}
+nav{
+	background-color: #001F33 !important;
+}
+
+#about h3{
+	text-align: center;
+	color: white;
+}
+
+.under_line
+{
+	height: 2px;
+	background-color:#FF3300;
+	border: 0;
+	width: 20%;
+}
+
+.about_content p 
+{
+	text-align: justify;
+}
