@@ -13,7 +13,7 @@ nav{
 .under_line
 {
 	height: 2px;
-	background-color:#FF3300;
+	background-color: #f06d06;
 	border: 0;
 	width: 20%;
 }
@@ -26,7 +26,7 @@ nav{
  color: #002E4C;
 }
 .about_series p{
- color: #FF3300;
+ color:  #f06d06;
 }
 
 /*Resume Starts here*/
@@ -235,7 +235,7 @@ nav{
 }
 
 .timeline>li .timeline-content:hover {
-    background:#FF3300;
+    background: #f06d06;
     color: #fff;
 }
 
@@ -256,7 +256,7 @@ nav{
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #FF3300;
+    border-left: 12px solid  #f06d06;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -268,7 +268,7 @@ nav{
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #FF3300;
+    border-right: 12px solid  #f06d06;
     border-left: 0;
 }
 
@@ -290,7 +290,7 @@ nav{
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #FF3300;
+    border-left: 12px solid  #f06d06;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -303,7 +303,7 @@ nav{
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #FF3300;
+    border-right: 12px solid  #f06d06;
     border-left: 0;
 }
 
@@ -354,14 +354,14 @@ nav{
 .progress {
     height: 10px;
     margin-bottom: 40px;
-    background-color: #FF3300 !important;
+    background-color:  #f06d06 !important;
     border-radius: 3px;
     box-shadow: none;
     width: 75%;
 }
 
 .progress-bar {
-    background-color:#FF3300 !important;
+    background-color: #f06d06 !important;
 }
 .progress-bar span{
     position: absolute;
@@ -437,3 +437,36 @@ nav{
 .angular{margin-top:100px;}
 .angular .chart {margin-top:0;}
 .chart .chart-text h3{font-size:22px;}
+
+/*Projects starts here*/
+.projects_list{
+   max-height: 300px;
+   position: relative;
+   padding: 10px;
+   margin-top: 20px;
+   background: #f06d06;
+   box-shadow: 
+    0 0 0 10px hsl(0, 0%, 50%),
+    0 0 0 15px hsl(0, 0%, 60%),
+    0 0 0 20px hsl(0, 0%, 70%),
+    0 0 0 25px hsl(0, 0%, 80%),
+    0 0 0 30px hsl(0, 0%, 90%);
+    overflow:hidden;
+    border-bottom: 10px solid #f06d06;
+}
+
+.project_title{
+  text-align: center;
+  font-weight: bold;
+
+}
+.explore_button{
+	position: absolute;
+	top:50%;
+	left: 45%;
+}
+.modal-header{
+	padding: 10px;
+}
+
+/*projects ends here*/
