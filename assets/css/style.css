@@ -493,7 +493,16 @@ nav{
 /*projects ends here*/
 /*Contact Section starts here*/
 #contact{
-    background-color: #fff;
+   
      padding-top: 20px;
 }
+.contact_details{
+    padding-left: 10px;
+}
 /*Contact Section Ends here*/
+/*footer*/
+.footer p{
+    color: #fff;
+    text-align: center;
+}
+/*footer end*/
