@@ -4,10 +4,16 @@ body{
 nav{
 	background-color: #001F33 !important;
 }
-
+#about{
+    background-color: #fff;
+}
 .content_items{
 	text-align: center;
-	color: white;
+	color:#000;
+}
+.content_items_alt{
+    text-align: center;
+    color:#fff;
 }
 
 .under_line
@@ -18,7 +24,7 @@ nav{
 	width: 20%;
 }
 
-.about_content span
+.about_content p
 {
 	text-align: justify;
 }
@@ -29,7 +35,16 @@ nav{
  color:  #f06d06;
 }
 
+#download_cv h5{
+    text-align: center;
+}
 /*Resume Starts here*/
+#education{
+    background-color: 
+}
+#experience{
+   background-color:#DE5233;
+}
 .resume-title h3{
     text-align: center;
 }
@@ -118,6 +133,7 @@ nav{
 
 .timeline-content{
     padding:5px 20px 0 20px;
+    background-color: white;
 }
 
 .timeline>li .timeline-panel:before {
@@ -147,7 +163,7 @@ nav{
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #2c3e50;
+    color: #fff;
     top: 0;
     float: left;
 }
@@ -306,12 +322,21 @@ nav{
     border-right: 12px solid  #f06d06;
     border-left: 0;
 }
-
+.timeline>li .posted-date .month {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    display: block;
+    color: #2c3e50;
+    top: 0;
+    float: left;
+}
 .timeline>li .posted-date {
     left: 50%;
     width: 120px;
     margin-left: -60px;
     margin-top: 28px;
+
 }
 .timeline>li .posted-date .month {
     float: none;
@@ -322,6 +347,9 @@ nav{
 
 
 /* === Skill Section === */
+#skills{
+    
+}
 .skills-section {
     background-color: ;
     color: #fff;   
@@ -333,17 +361,6 @@ nav{
 .skills-section .section-title h2{
     color: #fff;
 }
-.skill-title {
-    width: 25%;
-    float: left;
-}
-.skill-title h3{
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: -6px;
-    text-transform: capitalize;
-}
-
 
 
 /* progress-bar */
@@ -439,6 +456,10 @@ nav{
 .chart .chart-text h3{font-size:22px;}
 
 /*Projects starts here*/
+#projects{
+    background-color: #fff;
+    padding-top: 20px;
+}
 .projects_list{
    max-height: 300px;
    position: relative;
@@ -470,3 +491,9 @@ nav{
 }
 
 /*projects ends here*/
+/*Contact Section starts here*/
+#contact{
+    background-color: #fff;
+     padding-top: 20px;
+}
+/*Contact Section Ends here*/
