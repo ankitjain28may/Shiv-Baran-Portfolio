@@ -4,8 +4,14 @@ body{
 nav{
 	background-color: #001F33 !important;
 }
+@media(min-width:992px) {
+ nav{padding-left: 100px;
+    padding-right: 100px;}
+}
+    
 #about{
     background-color: #fff;
+    padding-top: 50px;
 }
 .content_items{
 	text-align: center;
@@ -40,7 +46,7 @@ nav{
 }
 /*Resume Starts here*/
 #education{
-    background-color: 
+    padding-top: 50px; 
 }
 #experience{
    background-color:#DE5233;
@@ -200,8 +206,9 @@ nav{
     font-weight: 700;
     margin-bottom: 20px;
 }
-
-
+.timeline-body p {
+    text-align: justify;
+}
 
 
 
@@ -348,7 +355,7 @@ nav{
 
 /* === Skill Section === */
 #skills{
-    
+    padding-top: 50px;
 }
 .skills-section {
     background-color: ;
@@ -458,7 +465,7 @@ nav{
 /*Projects starts here*/
 #projects{
     background-color: #fff;
-    padding-top: 20px;
+   padding-top: 50px;
 }
 .projects_list{
    max-height: 300px;
@@ -492,17 +499,35 @@ nav{
 
 /*projects ends here*/
 /*Contact Section starts here*/
+input[type=text],input[type=email], textarea{
+    color: #fff !important;
+}
+
 #contact{
-   
-     padding-top: 20px;
+   padding-top: 50px;
 }
 .contact_details{
     padding-left: 10px;
 }
+.submit_btn{
+    margin-left: 10px;
+}
 /*Contact Section Ends here*/
 /*footer*/
+footer{
+    background-color: #f06d06;
+    height: 50px;
+}
 .footer p{
+    padding-top: 10px;
     color: #fff;
+    margin-bottom: 0px;
     text-align: center;
 }
 /*footer end*/
+
+/*mail Body*/
+.mail_body{
+    background-color: #DE5233;
+    color:#fff;
+}
