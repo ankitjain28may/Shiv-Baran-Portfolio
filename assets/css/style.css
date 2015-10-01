@@ -497,6 +497,15 @@ nav{
 	padding: 10px;
 }
 
+.project_skills{
+  text-align: center;
+  background-color: ;
+}
+.project_skills_list{
+    color: #002E4C;
+    font-weight: bold;
+}
+
 /*projects ends here*/
 /*Contact Section starts here*/
 input[type=text],input[type=email], textarea{
